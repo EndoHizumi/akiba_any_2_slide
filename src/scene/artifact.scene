@@ -1,0 +1,23 @@
+<scene name="artifact">
+    <scenario>
+        <show mode="bg" src="/src/resource/slides/artifact.png" transition="fade" duration="1000" />
+        <text>Artifactについて</text>
+        <text>Artifactとは：
+            - 図形やコード、SVGなど、複雑なコンテンツを扱うための専用機能
+            - 会話とは別ウインドウで展開
+            - 対応フォーマット：
+            - Mermaid図表
+            - SVG画像
+            - React/Vueコンポーネント
+            - Markdownドキュメント
+            - 再利用・編集が可能な形式で出力・保存可能</text>
+        <route to="demo" />
+    </scenario>
+    <script>
+        export const sceneConfig = {
+            name: 'artifact',
+            template: 'src/screen/presentation.html',
+            background: ''
+        }
+    </script>
+</scene>

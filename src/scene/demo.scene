@@ -1,0 +1,18 @@
+<scene name="demo">
+    <scenario>
+        <show mode="bg" src="/src/resource/slides/demo.png" transition="fade" duration="1000" />
+        <text>Artifactのデモ</text>
+        <say name="遠藤ヒズミ">では、実際にArtifactを使ってToDoアプリを作ってみましょう！</say>
+        <text>プロンプト：
+            「ToDoアプリのReactコンポーネント構成を図解してください。
+            さらに、メインとなるToDoリストコンポーネントのコードも示してください。」</text>
+        <route to="webtalekit" />
+    </scenario>
+    <script>
+        export const sceneConfig = {
+            name: 'demo',
+            template: 'src/screen/presentation.html',
+            background: ''
+        }
+    </script>
+</scene>

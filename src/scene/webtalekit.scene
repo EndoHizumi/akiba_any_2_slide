@@ -1,0 +1,24 @@
+<scene name="webtalekit">
+    <scenario>
+        <show mode="bg" src="/src/resource/slides/webtalekit.png" transition="fade" duration="1000" />
+        <text>タイトル回収は？</text>
+        <say name="遠藤ヒズミ">実は、このスライド自体がClaude3で作った成果物なんです！</say>
+        <text>
+            - このスライドはWebTaleKitで作られています
+            - WebTaleKitのコードをClaude3に読ませて、シナリオを生成
+            - ビジュアルノベル風のプレゼンテーションを自動生成</text>
+        <say name="遠藤ヒズミ">ご清聴ありがとうございました！</say>
+        <choice prompt="タイトルに戻る">
+            <item label="最初から">
+                <route to="title" />
+            </item>
+        </choice>
+    </scenario>
+    <script>
+        export const sceneConfig = {
+            name: 'webtalekit',
+            template: 'src/screen/presentation.html',
+            background: 'src/resource/background/title_bg.png'
+        }
+    </script>
+</scene>
