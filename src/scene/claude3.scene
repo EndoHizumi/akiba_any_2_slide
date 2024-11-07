@@ -1,23 +1,19 @@
 <scene name="claude3">
     <scenario>
-        <show mode="bg" src="/src/resource/slides/claude3.png" transition="fade" duration="1000" />
-        <hide name="profile" transition="fade" duration="500" />
-        <text>Claude3(クロード)とは？</text>
-        <show name="profile" src="/src/resource/character/presenter.png" pos="right:bottom" transition="fade"
-            duration="500" />
-        <text>
-            - Anthropic社が2024年3月にリリースした生成AI
-            - 3つのモデル（Haiku、Opus、Sonnet）があり、Haikuは無料で使える
-            - GPT-4と並ぶ性能を持つ最新の高性能AI
-            - マルチモーダル対応で、文脈理解や長文理解が得意
-            - より良い結果のために、発展的な提案を行うことも</text>
+        <say name="Claude3(クロード)とは？">
+            - Anthropic(アンソロピック)社が2024年3月にリリースした生成AI<br nw>
+            - 3つのモデル（Haiku、Opus、Sonnet）があり、Haikuは無料で使える<br nw>
+            - GPT-4と並ぶ性能を持つ最新の高性能AI<br nw>
+            - マルチモーダル対応で、文脈理解や長文理解が得意<br nw>
+            - 比較的、正確な情報を生成することができるため、<br nw>コードのレビューから学術的な文章の作成など、多岐にわたる活用が可能<br nw>
+        </say>
         <route to="artifact" />
     </scenario>
     <script>
         export const sceneConfig = {
             name: 'claude3',
             template: 'src/screen/presentation.html',
-            background: ''
+
         }
     </script>
 </scene>

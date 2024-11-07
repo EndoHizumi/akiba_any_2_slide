@@ -1,14 +1,12 @@
 <scene name="title">
     <scenario>
-        <show mode="bg" src="/src/resource/slides/title.png" transition="fade" duration="1000" />
-        <text>「Claude3と何つくろう？」</text>
-        <text>2024/11/7 Akiba.any #2 遠藤ヒズミ</text>
+        <say name="「Claude3と何つくろう？」">2024/11/7 Akiba.any #2 遠藤ヒズミ</say>
         <route to="contents" />
     </scenario>
     <script>
         export const sceneConfig = {
             name: 'title',
-            template: 'src/screen/presentation.html',
+            template: 'src/screen/title.html',
             background: 'src/resource/background/title_bg.png'
         }
     </script>

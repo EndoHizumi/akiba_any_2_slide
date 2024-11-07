@@ -8,9 +8,9 @@
       "type": "chrome",
       "request": "launch",
       "name": "Open artifact.scene",
-      "url": "http://localhost:8080",
+      "url": "http://localhost:8080"
       // コマンドを実行する
-      "preLaunchTask": "npm: dev"
+      // "preLaunchTask": "npm: dev"
     }
   ]
 }

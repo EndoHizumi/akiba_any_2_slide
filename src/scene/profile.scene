@@ -1,23 +1,17 @@
 <scene name="profile">
     <scenario>
-        <show mode="bg" src="/src/resource/slides/profile.png" transition="fade" duration="1000" />
-        <text>自己紹介</text>
-        <show name="profile" src="/src/resource/character/presenter.png" pos="right:bottom" transition="fade"
-            duration="500" />
-        <say name="遠藤ヒズミ">はじめまして！遠藤ヒズミです！</say>
-        <text>
-            - 名前：遠藤ヒズミ
-            - 生息地：千葉県
-            - 分類：Webフロントエンジニア
-            - 好きなもの：太めのロボットとニチアサとPSO2の自キャラ</text>
-        <say name="遠藤ヒズミ">今期は「Re:ゼロ」や「五等分の花嫁」なんかを見てます！</say>
+        <show name="icon" src="/src/resource/chara/icon.png" pos="center:bottom" transition="fade" duration="1000" />
+        <say name="自己紹介">- 名前：遠藤ヒズミ<br nw>
+            - 生息地：千葉県<br nw>
+            - 分類：Webフロントエンジニア(バックエンドもいけるよ！)<br nw>
+            - 好きなもの：太めのロボットとニチアサとPSO2の自キャラ<br nw>
+            - 今期は「Re:ゼロ」や「2.5次元の誘惑(リリサ)」なんかを見てます！<br nw></say>
         <route to="claude3" />
     </scenario>
     <script>
         export const sceneConfig = {
             name: 'profile',
             template: 'src/screen/presentation.html',
-            background: ''
         }
     </script>
 </scene>

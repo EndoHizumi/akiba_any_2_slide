@@ -1,0 +1,17 @@
+<scene name="spoil">
+    <scenario>
+        <say name="これ自体が成果物">
+            - 実はこれ、いつものGoogleスライドじゃないんですよ。<br>
+            - 拙作：WebTaleKitのコードを読ませて、Claude3 Artifactで作ってもらったスライドなんです。<br>
+            - つまり、「Claude3と何つくろう？」の答えは「このLT資料」でした！<br>
+        </say>
+        <route to="webtalekit" />
+    </scenario>
+    <script>
+        export const sceneConfig = {
+            name: 'spoil',
+            template: 'src/screen/presentation.html',
+            background: 'src/resource/background/title_bg.png'
+        }
+    </script>
+</scene>

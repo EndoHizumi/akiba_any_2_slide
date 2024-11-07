@@ -1,13 +1,12 @@
 <scene name="webtalekit">
     <scenario>
-        <show mode="bg" src="/src/resource/slides/webtalekit.png" transition="fade" duration="1000" />
-        <text>タイトル回収は？</text>
-        <say name="遠藤ヒズミ">実は、このスライド自体がClaude3で作った成果物なんです！</say>
-        <text>
-            - このスライドはWebTaleKitで作られています
-            - WebTaleKitのコードをClaude3に読ませて、シナリオを生成
-            - ビジュアルノベル風のプレゼンテーションを自動生成</text>
-        <say name="遠藤ヒズミ">ご清聴ありがとうございました！</say>
+        <show src="src/resource/chara/wbkIcon.png" pos="center:bottom" transition="fade" />
+        <say name="WebTaleKitとは">
+            - 遠藤ヒズミが開発中のヴィジュアルノベルゲームエンジン。
+            - 独自のマークアップ言語で楽々開発ができ、JavaScriptで拡張ができる。
+            - UI画面とゲームシナリオが分離しているので、分けて開発も可能。
+            - npm createコマンド対応なので、環境構築がとても楽。
+        </say>
         <choice prompt="タイトルに戻る">
             <item label="最初から">
                 <route to="title" />

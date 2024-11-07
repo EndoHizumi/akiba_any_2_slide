@@ -9,11 +9,9 @@
     "dev": "rimraf dist && npx wtc ./src/scene/ ./src/js/ && npx webpack serve --mode development",
     "build": "rimraf dist && npx wtc ./src/scene/ ./src/js/ && webpack --mode production"
   },
-
   "dependencies": {
     "html-webpack-plugin": "^5.6.0",
-    "storejs": "^2.1.0",
-    "webtalekit": "^0.2.6"
+    "storejs": "^2.1.0"
   },
   "devDependencies": {
     "filemanager-webpack-plugin": "^8.0.0",

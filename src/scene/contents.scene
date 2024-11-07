@@ -1,20 +1,18 @@
 <scene name="contents">
     <scenario>
-        <show mode="bg" src="/src/resource/slides/contents.png" transition="fade" duration="1000" />
-        <text>目次</text>
-        <text>
-            - 自己紹介
-            - Claude 3とは？
-            - Artifactについて
-            - Artifactデモ
-            - タイトル回収</text>
+        <say name="目次">
+            - 自己紹介<br nw>
+            - Claude 3とは？<br nw>
+            - Artifactについて<br nw>
+            - Artifactデモ<br nw>
+        </say>
         <route to="profile" />
     </scenario>
     <script>
         export const sceneConfig = {
             name: 'contents',
             template: 'src/screen/presentation.html',
-            background: ''
+
         }
     </script>
 </scene>

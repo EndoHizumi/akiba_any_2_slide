@@ -1,0 +1,18 @@
+<scene name="webtalekit">
+    <scenario>
+        <say name="タイトル回収は？">
+            ここまで、タイトルが、全く回収されていませんね？
+        </say>
+        <say name="タイトル回収は？" speed="80">
+            でも、もう見てますよ。
+        </say>
+        <route to="spoil" />
+    </scenario>
+    <script>
+        export const sceneConfig = {
+            name: 'webtalekit',
+            template: 'src/screen/presentation_oneLiner.html',
+            background: 'src/resource/background/title_bg.png'
+        }
+    </script>
+</scene>
