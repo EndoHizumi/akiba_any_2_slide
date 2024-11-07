@@ -1,6 +1,6 @@
 <scene name="artifact">
     <scenario>
-        <show src="src/resource/chara/artifact.png" pos="center:bottom" transition="fade" />
+        <show src="src/resource/chara/artifact.png" pos="center:bottom" />
         <say name="Artifactについて">
             - 会話とは別のウィンドウで成果物が作成されるClaude3独自の機能<br nw>
             - 図形やコード、SVGなど、複雑なコンテンツを扱うことができる。<br nw>

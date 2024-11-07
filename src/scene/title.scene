@@ -1,6 +1,6 @@
 <scene name="title">
     <scenario>
-        <say name="「Claude3と何つくろう？」">2024/11/7 Akiba.any #2 遠藤ヒズミ</say>
+        <say name="「Claude3 Artifactで○○作ってみた」">2024/11/7 Akiba.any #2 遠藤ヒズミ</say>
         <route to="contents" />
     </scenario>
     <script>

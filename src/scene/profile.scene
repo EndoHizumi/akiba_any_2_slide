@@ -1,6 +1,6 @@
 <scene name="profile">
     <scenario>
-        <show name="icon" src="/src/resource/chara/icon.png" pos="center:bottom" transition="fade" duration="1000" />
+        <show name="icon" src="/src/resource/chara/icon.png" pos="center:bottom" />
         <say name="自己紹介">- 名前：遠藤ヒズミ<br nw>
             - 生息地：千葉県<br nw>
             - 分類：Webフロントエンジニア(バックエンドもいけるよ！)<br nw>

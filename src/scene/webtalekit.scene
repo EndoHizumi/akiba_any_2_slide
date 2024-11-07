@@ -1,13 +1,14 @@
 <scene name="webtalekit">
     <scenario>
-        <show src="src/resource/chara/wbkIcon.png" pos="center:bottom" transition="fade" />
+        <show name="wtkIcon" src="src/resource/chara/webtalekit-edit.png" pos="center:bottom" />
         <say name="WebTaleKitとは">
-            - 遠藤ヒズミが開発中のヴィジュアルノベルゲームエンジン。
-            - 独自のマークアップ言語で楽々開発ができ、JavaScriptで拡張ができる。
-            - UI画面とゲームシナリオが分離しているので、分けて開発も可能。
-            - npm createコマンド対応なので、環境構築がとても楽。
+            - 遠藤ヒズミが開発中のヴィジュアルノベルゲームエンジン。<br nw>
+            - 独自のマークアップ言語で楽々開発ができ、JavaScriptで拡張ができる。<br nw>
+            - UI画面とゲームシナリオが分離しているので、分けて開発も可能。<br nw>
+            - npm createコマンド対応なので、環境構築がとても楽。<br nw>
         </say>
-        <choice prompt="タイトルに戻る">
+        <hide name="wtkIcon" />
+        <choice prompt="ご清聴ありがとうございました！">
             <item label="最初から">
                 <route to="title" />
             </item>

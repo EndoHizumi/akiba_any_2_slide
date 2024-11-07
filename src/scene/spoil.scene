@@ -1,9 +1,8 @@
 <scene name="spoil">
     <scenario>
         <say name="これ自体が成果物">
-            - 実はこれ、いつものGoogleスライドじゃないんですよ。<br>
-            - 拙作：WebTaleKitのコードを読ませて、Claude3 Artifactで作ってもらったスライドなんです。<br>
-            - つまり、「Claude3と何つくろう？」の答えは「このLT資料」でした！<br>
+            - 拙作:WebTaleKitのコードを読ませて、Claude3 Artifactで生成してもらったLT風ノベルゲームです。<br>
+            - つまり、「Claude3 Artifactで〇〇作ってみた」の答えは「このLT資料」でした！<br>
         </say>
         <route to="webtalekit" />
     </scenario>

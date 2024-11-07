@@ -1,10 +1,10 @@
 <scene name="webtalekit">
     <scenario>
         <say name="タイトル回収は？">
-            ここまで、タイトルが、全く回収されていませんね？
+            え？おかしいですね？
         </say>
         <say name="タイトル回収は？" speed="80">
-            でも、もう見てますよ。
+            もう見てますよ。
         </say>
         <route to="spoil" />
     </scenario>
